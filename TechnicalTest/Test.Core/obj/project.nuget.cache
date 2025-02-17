@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WUivfg0iSwk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Test.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MedNour\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\MedNour\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\MedNour\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

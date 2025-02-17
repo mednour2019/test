@@ -1,0 +1,55 @@
+<h2 mat-dialog-title class="dialog-title">
+  Add New User
+  <button mat-icon-button (click)="onNoClick()" class="close-button">
+    <mat-icon>close</mat-icon>
+  </button>
+</h2>
+<mat-dialog-content>
+  <form [formGroup]="userForm">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <mat-form-field class="full-width">
+            <mat-label>Name</mat-label>
+            <input matInput [(ngModel)]="localUser.name" formControlName="name" name="name" required />
+            <mat-error *ngIf="userForm.get('name')?.hasError('required')">
+              Name is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="col-sm">
+          <!-- Email Field -->
+          <mat-form-field class="full-width">
+            <mat-label>Email</mat-label>
+            <input matInput [(ngModel)]="localUser.email" formControlName="email" type="email" name="email" required />
+            <mat-error *ngIf="userForm.get('email')?.hasError('required')">
+              Email is required
+            </mat-error>
+            <mat-error *ngIf="userForm.get('email')?.hasError('email')">
+              Invalid email address
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col-sm">
+          <!-- Status Toggle -->
+            <mat-label>Status</mat-label>
+
+            <mat-slide-toggle formControlName="status" (change)="onStatusChange($event.checked)">
+            </mat-slide-toggle>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions class="dialog-actions">
+  <button mat-button class="cancel-button" (click)="onNoClick()">Cancel</button>
+  <button mat-button class="save-button" (click)="onSaveClick()" [disabled]="!userForm.valid">
+    Save
+  </button>
+</mat-dialog-actions>

@@ -1,0 +1,98 @@
+<div class="container">
+  <div class="row">
+    <h1 class="employees-title">Users List</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm"></div>
+    <div class="col-sm">
+      <mat-label class="hide-show">hide/show columns </mat-label>
+      <div class="checkbox-list">
+        <div *ngFor="let column of allColumns" class="checkbox-item">
+          <input type="checkbox" [id]="column" [checked]="displayedColumns.includes(column)"
+            (change)="toggleColumn($event, column)" />
+          <label [for]="column">{{ column }}</label>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm"></div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col">
+      <a
+      (click)="openDialog()"
+      mat-raised-button
+      color="primary"
+      class="custom-button ml-1"
+    >
+        <mat-icon>add</mat-icon>
+        Add New User
+      </a>
+    </div>
+    <div class="col-8">
+      <input type="text" class="search-input" placeholder="Search Users" [(ngModel)]="filterString"
+        (keyup)="filterUsers()" />
+    </div>
+  </div>
+  <br />
+  <!-- Checkboxes for columns in a vertical list -->
+  <div class="row">
+    <div class="table-container">
+      <div class="mt-1 mat-elevation-z8">
+        <table mat-table matSort [dataSource]="dataSource">
+          <!-- FirstName Column -->
+          <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header class="col-tab">
+              Full Name
+            </th>
+            <td mat-cell *matCellDef="let element">{{ element.name }}</td>
+          </ng-container>
+          <!-- FirstName Column -->
+          <!-- lastName Column -->
+          <ng-container matColumnDef="email">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header class="col-tab">
+              Email
+            </th>
+            <td mat-cell *matCellDef="let element">{{ element.email }}</td>
+          </ng-container>
+          <ng-container matColumnDef="status">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header class="col-tab">
+              Status
+            </th>
+            <td mat-cell *matCellDef="let element"><span [ngClass]="{
+              'status-active': element.status === 1,
+              'status-inactive': element.status === 0
+          }">
+          <mat-icon *ngIf="element.status === 1">check_circle</mat-icon>
+          <mat-icon *ngIf="element.status === 0">cancel</mat-icon>
+                {{ getStatusString(element.status) }}
+              </span>
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="action">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header class="col-tab">Action</th>
+            <td mat-cell *matCellDef="let element">
+              <a (click)="openConfirmDialog(element.id)">
+                <mat-icon color="warn">delete</mat-icon>
+              </a>
+              &nbsp;
+              &nbsp;
+              <a (click)="editUser(element)">
+                <mat-icon color="primary">edit</mat-icon>
+              </a>
+            </td>
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns" (click)="selectRow(row)"
+            [class.selected]="selectedRow === row"></tr>
+        </table>
+        <mat-paginator [length]="100" [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page"
+          [ngStyle]="{
+            'background-color': paginatorBackgroundColor,
+            color: paginatorTextColor
+          }">
+        </mat-paginator>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\technicaltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|solutionrelative:technicaltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|solutionrelative:test.core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\technicaltest\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|solutionrelative:technicaltest\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CA35D-CD47-462A-828D-CA302A84A914}|Test.Service\\Test.Service.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.service\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21CA35D-CD47-462A-828D-CA302A84A914}|Test.Service\\Test.Service.csproj|solutionrelative:test.service\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|solutionrelative:test.core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.infrastructure\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|solutionrelative:test.infrastructure\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|solutionrelative:test.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|solutionrelative:test.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|solutionrelative:test.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.core\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|solutionrelative:test.core\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.infrastructure\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|solutionrelative:test.infrastructure\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.infrastructure\\genericrepository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|solutionrelative:test.infrastructure\\genericrepository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|solutionrelative:test.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.core\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|solutionrelative:test.core\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.core\\test.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69C3C88D-EE6D-452A-ABAC-1BD777B2906F}|Test.Core\\Test.Core.csproj|solutionrelative:test.core\\test.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.infrastructure\\test.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|solutionrelative:test.infrastructure\\test.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21CA35D-CD47-462A-828D-CA302A84A914}|Test.Service\\Test.Service.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.service\\test.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A21CA35D-CD47-462A-828D-CA302A84A914}|Test.Service\\Test.Service.csproj|solutionrelative:test.service\\test.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\test.infrastructure\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F236677-3E5A-445F-B2A7-9CAC424D6506}|Test.Infrastructure\\Test.Infrastructure.csproj|solutionrelative:test.infrastructure\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\technicaltest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|solutionrelative:technicaltest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|c:\\users\\mednour\\source\\repos\\technicaltest\\technicaltest\\technicaltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|solutionrelative:technicaltest\\technicaltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 26,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\TechnicalTest\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TechnicalTest\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\TechnicalTest\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TechnicalTest\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:18:20.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Service\\UserService\\UserService.cs",
+              "RelativeDocumentMoniker": "Test.Service\\UserService\\UserService.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Service\\UserService\\UserService.cs",
+              "RelativeToolTip": "Test.Service\\UserService\\UserService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:15:59.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Test.Service",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Service\\Test.Service.csproj",
+              "RelativeDocumentMoniker": "Test.Service\\Test.Service.csproj",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Service\\Test.Service.csproj",
+              "RelativeToolTip": "Test.Service\\Test.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-16T20:15:28.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Test.Core\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Test.Core\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAD4vwsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:14:38.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Validators\\UserValidator.cs",
+              "RelativeDocumentMoniker": "Test.Core\\Validators\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Validators\\UserValidator.cs",
+              "RelativeToolTip": "Test.Core\\Validators\\UserValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:08:58.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Test.Core\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Test.Core\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:06:50.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "Test.Core\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "Test.Core\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:05:14.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\UserRepository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Test.Infrastructure\\UserRepository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\UserRepository\\UserRepository.cs",
+              "RelativeToolTip": "Test.Infrastructure\\UserRepository\\UserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:03:35.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Test.Core\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Test.Core\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:59:45.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\GenericRepository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Test.Infrastructure\\GenericRepository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\GenericRepository\\UnitOfWork.cs",
+              "RelativeToolTip": "Test.Infrastructure\\GenericRepository\\UnitOfWork.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAD4vxEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:55:07.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Test.Core\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Test.Core\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAD4vwsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:54:06.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\GenericRepository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Test.Infrastructure\\GenericRepository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\GenericRepository\\GenericRepository.cs",
+              "RelativeToolTip": "Test.Infrastructure\\GenericRepository\\GenericRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAxwCQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:26:51.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Test.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\Test.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Test.Infrastructure\\Test.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\Test.Infrastructure.csproj",
+              "RelativeToolTip": "Test.Infrastructure\\Test.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-16T19:26:02.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Test.Core\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Test.Core\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA3wA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:22:54.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Test.Core",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Test.Core.csproj",
+              "RelativeDocumentMoniker": "Test.Core\\Test.Core.csproj",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Test.Core.csproj",
+              "RelativeToolTip": "Test.Core\\Test.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-16T19:22:08.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\TechnicalTest\\appsettings.json",
+              "RelativeDocumentMoniker": "TechnicalTest\\appsettings.json",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\TechnicalTest\\appsettings.json",
+              "RelativeToolTip": "TechnicalTest\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T19:14:09.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Test.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Core\\Entities\\User.cs",
+              "RelativeToolTip": "Test.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:13:51.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "Test.Infrastructure\\Data\\DbContext.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\Data\\DbContext.cs",
+              "RelativeToolTip": "Test.Infrastructure\\Data\\DbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:13:33.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\TechnicalTest\\Program.cs",
+              "RelativeDocumentMoniker": "TechnicalTest\\Program.cs",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\TechnicalTest\\Program.cs",
+              "RelativeToolTip": "TechnicalTest\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:37:53.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TechnicalTest",
+              "DocumentMoniker": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
+              "RelativeDocumentMoniker": "TechnicalTest\\TechnicalTest.csproj",
+              "ToolTip": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
+              "RelativeToolTip": "TechnicalTest\\TechnicalTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-16T17:36:27.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
