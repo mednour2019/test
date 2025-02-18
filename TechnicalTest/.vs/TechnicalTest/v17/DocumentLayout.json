@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|c:\\users\\mednour\\downloads\\angularmoduletest-master\\technicaltest\\technicaltest\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|solutionrelative:technicaltest\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|c:\\users\\mednour\\downloads\\angularmoduletest-master\\technicaltest\\technicaltest\\technicaltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AD5E4719-E31A-430D-8BD2-5BDF3CD50182}|TechnicalTest\\TechnicalTest.csproj|solutionrelative:technicaltest\\technicaltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -78,34 +74,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\TechnicalTest\\Dockerfile",
-              "RelativeDocumentMoniker": "TechnicalTest\\Dockerfile",
-              "ToolTip": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\TechnicalTest\\Dockerfile",
-              "RelativeToolTip": "TechnicalTest\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-18T11:02:32.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TechnicalTest",
-              "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
-              "RelativeDocumentMoniker": "TechnicalTest\\TechnicalTest.csproj",
-              "ToolTip": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
-              "RelativeToolTip": "TechnicalTest\\TechnicalTest.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-18T10:56:09.506Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
@@ -140,7 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "TechnicalTest.csproj",
+              "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
+              "RelativeDocumentMoniker": "TechnicalTest\\TechnicalTest.csproj",
+              "ToolTip": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
+              "RelativeToolTip": "TechnicalTest\\TechnicalTest.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-18T11:45:29.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Service\\UserService\\UserService.cs",
               "RelativeDocumentMoniker": "Test.Service\\UserService\\UserService.cs",
@@ -148,12 +131,11 @@
               "RelativeToolTip": "Test.Service\\UserService\\UserService.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:43:14.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:43:14.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Infrastructure\\UserRepository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Test.Infrastructure\\UserRepository\\UserRepository.cs",
@@ -161,12 +143,11 @@
               "RelativeToolTip": "Test.Infrastructure\\UserRepository\\UserRepository.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:43:09.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:43:09.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Infrastructure\\GenericRepository\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Test.Infrastructure\\GenericRepository\\UnitOfWork.cs",
@@ -174,12 +155,11 @@
               "RelativeToolTip": "Test.Infrastructure\\GenericRepository\\UnitOfWork.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:43:05.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:43:05.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Infrastructure\\GenericRepository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Test.Infrastructure\\GenericRepository\\GenericRepository.cs",
@@ -187,12 +167,11 @@
               "RelativeToolTip": "Test.Infrastructure\\GenericRepository\\GenericRepository.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:43:01.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:43:01.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "DbContext.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Infrastructure\\Data\\DbContext.cs",
               "RelativeDocumentMoniker": "Test.Infrastructure\\Data\\DbContext.cs",
@@ -200,12 +179,11 @@
               "RelativeToolTip": "Test.Infrastructure\\Data\\DbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:42:58.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:42:58.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "UserValidator.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Core\\Validators\\UserValidator.cs",
               "RelativeDocumentMoniker": "Test.Core\\Validators\\UserValidator.cs",
@@ -213,12 +191,11 @@
               "RelativeToolTip": "Test.Core\\Validators\\UserValidator.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:42:52.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:42:52.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Core\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Test.Core\\Mappings\\MappingProfile.cs",
@@ -226,12 +203,11 @@
               "RelativeToolTip": "Test.Core\\Mappings\\MappingProfile.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:42:49.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:42:49.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Core\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Test.Core\\Interfaces\\IUserService.cs",
@@ -239,12 +215,11 @@
               "RelativeToolTip": "Test.Core\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:42:44.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:42:44.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Core\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Test.Core\\Interfaces\\IUserRepository.cs",
@@ -252,12 +227,11 @@
               "RelativeToolTip": "Test.Core\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:42:38.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:42:38.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Core\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Test.Core\\Interfaces\\IUnitOfWork.cs",
@@ -265,12 +239,11 @@
               "RelativeToolTip": "Test.Core\\Interfaces\\IUnitOfWork.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:42:36.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:42:36.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Core\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Test.Core\\Interfaces\\IGenericRepository.cs",
@@ -278,12 +251,11 @@
               "RelativeToolTip": "Test.Core\\Interfaces\\IGenericRepository.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:42:33.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:42:33.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Test.Core\\Entities\\User.cs",
@@ -291,12 +263,11 @@
               "RelativeToolTip": "Test.Core\\Entities\\User.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:42:28.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:42:28.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Core\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "Test.Core\\DTOs\\UserDto.cs",
@@ -304,12 +275,11 @@
               "RelativeToolTip": "Test.Core\\DTOs\\UserDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:42:25.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:42:25.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\TechnicalTest\\Program.cs",
               "RelativeDocumentMoniker": "TechnicalTest\\Program.cs",
@@ -317,12 +287,11 @@
               "RelativeToolTip": "TechnicalTest\\Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:11:15.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:11:15.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\TechnicalTest\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "TechnicalTest\\Controllers\\UsersController.cs",
@@ -330,8 +299,7 @@
               "RelativeToolTip": "TechnicalTest\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:11:10.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:11:10.115Z"
             }
           ]
         }
