@@ -11,3 +11,16 @@ C:\Users\MedNour\source\repos\TechnicalTest\Test.Core\obj\Debug\net8.0\refint\Te
 C:\Users\MedNour\source\repos\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.pdb
 C:\Users\MedNour\source\repos\TechnicalTest\Test.Core\obj\Debug\net8.0\ref\Test.Core.dll
 C:\Users\MedNour\source\repos\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.csproj.AssemblyReference.cache
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\bin\Debug\net8.0\Test.Core.deps.json
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\bin\Debug\net8.0\Test.Core.dll
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\bin\Debug\net8.0\Test.Core.pdb
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.csproj.AssemblyReference.cache
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.AssemblyInfoInputs.cache
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.AssemblyInfo.cs
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.csproj.CoreCompileInputs.cache
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.sourcelink.json
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.dll
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\refint\Test.Core.dll
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\Test.Core.pdb
+C:\Users\MedNour\Downloads\AngularModuleTest-master\TechnicalTest\Test.Core\obj\Debug\net8.0\ref\Test.Core.dll

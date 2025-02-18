@@ -112,20 +112,26 @@ mat-sort-header-content {
 }
 
 .mat-elevation-z8 {
-  min-width: 1000px; /* Adjust this value based on the number of columns */
+  min-width: 1000px;
 }
 
 .checkbox-item label {
   cursor: pointer;
 }
 
-/* user.component.css */
+
 .status-active {
-  color: green; /* Active status color */
+  color: green;
   font-weight: bold;
 }
 
 .status-inactive {
-  color: red; /* Inactive status color */
+  color: red;
   font-weight: bold;
+}
+.toggle-icon {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: inherit;
 }

@@ -26,13 +26,14 @@ import { DeleteUserComponent } from '../delete-user/delete-user.component';
 export class UserComponent implements OnInit, AfterViewInit, OnDestroy {
   users: user[] = [];
   allColumns: string[] = ['name', 'email', 'status', 'action'];
-  displayedColumns: string[] = ['name', 'email', 'status', 'action']; // Initialize with first 7 columns, the before last and the last item
+  displayedColumns: string[] = ['name', 'email', 'status', 'action'];
   dataSource: MatTableDataSource<user> = new MatTableDataSource<user>();
   @ViewChild(MatPaginator) matPaginator!: MatPaginator;
   @ViewChild(MatSort) matSort!: MatSort;
   filterString = '';
   paginatorBackgroundColor = '#797d6c26';
   paginatorTextColor = '#3f51b5';
+  showColumnList: boolean = false; // Control visibility of the checkbox list
 
   constructor(
     private userService: UserService,
@@ -86,7 +87,7 @@ export class UserComponent implements OnInit, AfterViewInit, OnDestroy {
       (a, b) => this.allColumns.indexOf(a) - this.allColumns.indexOf(b)
     );
   }
-  // Method to get the status string
+  // Method to get the status string: from enumerate
   getStatusString(status: UserStatus): string {
     switch (status) {
       case UserStatus.Active:
@@ -97,9 +98,9 @@ export class UserComponent implements OnInit, AfterViewInit, OnDestroy {
         return 'Unknown';
     }
   }
-  openDialog(user?:user): void {
+  openDialog(user?: user): void {
     // initialoize my dilaog here
-    const bool = true; // or false, depending on your logic
+    const bool = true;
 
     var dialogRef = this.dialog.open(AddUserDialogComponent, {
       //  width: '1000px',
@@ -107,23 +108,18 @@ export class UserComponent implements OnInit, AfterViewInit, OnDestroy {
       position: { top: '5%' },
       // panelClass: 'custom-dialog-container'
       panelClass: 'custom-dialog-container',
-      data:user, ///pass user data to the dialog
-
+      data: user, ///pass user data to the dialog
     });
 
     dialogRef.afterClosed().subscribe((result) => {
       console.log('The dialog was closed');
 
       if (result) {
-        if(user){
-
-      this.updateUser(result);
-      console.log('result-updating', result);
-        }
-        else{
+        if (user) {
+          this.updateUser(result);
+          console.log('result-updating', result);
+        } else {
           this.addUser(result);
-
-
         }
       }
     });
@@ -151,46 +147,61 @@ export class UserComponent implements OnInit, AfterViewInit, OnDestroy {
     });
   }
   editUser(user: user): any {
-    // Logic to open an edit dialog or navigate to an edit form
-   // console.log('Editing user:', user);
-    // You can use a dialog service to open a modal for editing
-    this.openDialog(user); // Open the dialog with user data
+    this.openDialog(user);
   }
-  updateUser(user: any) : void {
-    console.log('updating user into updatemethod',user)
+  updateUser(user: any): void {
+    console.log('updating user into updatemethod', user);
     this.userService.UpdateUser(user).subscribe({
       next: (successResponse) => {
-        this.sharedMethodService.showSnackbar('User Updated Successfully', 'Success', 'succ-snackbar');
-        this.loadUsers(); // Reload the users to reflect changes
-       // console.log('updated user',user)
+        this.sharedMethodService.showSnackbar(
+          'User Updated Successfully',
+          'Success',
+          'succ-snackbar'
+        );
+        this.loadUsers();
+        // console.log('updated user',user)
       },
       error: (errorResponse) => {
         console.log('Error updating user:', errorResponse);
-        this.sharedMethodService.showSnackbar('Error in Updating User', 'Error', '');
+        this.sharedMethodService.showSnackbar(
+          'Error in Updating User',
+          'Error',
+          ''
+        );
       },
     });
   }
   openConfirmDialog(id: number): void {
     var dialogRef = this.dialog.open(DeleteUserComponent);
 
-    dialogRef.afterClosed().subscribe(result => {
+    dialogRef.afterClosed().subscribe((result) => {
       if (result === true) {
         this.deleteElement(id);
       }
     });
   }
-  // delete line from table
   deleteElement(id: number): void {
     this.userService.DeleteUser(id).subscribe({
       next: (successResponse) => {
-        this.sharedMethodService.showSnackbar('User deleted Successfully', 'Success', 'succ-snackbar');
-        this.loadUsers(); // Reload the users to reflect changes
+        this.sharedMethodService.showSnackbar(
+          'User deleted Successfully',
+          'Success',
+          'succ-snackbar'
+        );
+        this.loadUsers();
       },
       error: (errorResponse) => {
         console.log('Error updating user:', errorResponse);
-        this.sharedMethodService.showSnackbar('Error in Deleting User', 'Error', '');
+        this.sharedMethodService.showSnackbar(
+          'Error in Deleting User',
+          'Error',
+          ''
+        );
       },
     });
-
-   }
+  }
+  // Toggle the visibility of the column list
+  toggleColumnList() {
+    this.showColumnList = !this.showColumnList;
+  }
 }

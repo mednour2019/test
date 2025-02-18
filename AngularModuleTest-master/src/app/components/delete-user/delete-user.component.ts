@@ -8,9 +8,7 @@ import { MatDialogRef } from '@angular/material/dialog';
 })
 export class DeleteUserComponent {
   constructor(public dialogRef: MatDialogRef<DeleteUserComponent>) {}
-  /**
-   * Confirms the action and closes the dialog, returning true.
-   */
+
   onConfirm(): void {
     this.dialogRef.close(true);
   }

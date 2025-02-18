@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RfCUwQibvXg=",
+  "dgSpecHash": "qQpa7RwDjrg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MedNour\\source\\repos\\TechnicalTest\\Test.Infrastructure\\Test.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\MedNour\\Downloads\\AngularModuleTest-master\\TechnicalTest\\Test.Infrastructure\\Test.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MedNour\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\MedNour\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
